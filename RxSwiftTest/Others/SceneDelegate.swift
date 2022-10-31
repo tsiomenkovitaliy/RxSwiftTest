@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -17,6 +18,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        var config = Realm.Configuration(
+            schemaVersion: 11,
+            migrationBlock: { migration, oldSchemaVersion in
+        })
+        config.deleteRealmIfMigrationNeeded = true
+
+        Realm.Configuration.defaultConfiguration = config
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -45,8 +53,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Called as the scene transitions from the foreground to the background.
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
+        
+        RealmNewsManager.shared.writeNews()
     }
-
-
 }
 

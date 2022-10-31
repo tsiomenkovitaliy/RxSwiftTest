@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82B482D5172DB7268D8BB33D /* Pods_RxSwiftTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FCE2238458A3470CBC3DB7 /* Pods_RxSwiftTest.framework */; };
+		E744F5F3288E942500164F85 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = E744F5F2288E942500164F85 /* News.swift */; };
+		E744F5F5288E972000164F85 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E744F5F4288E972000164F85 /* NewsModel.swift */; };
+		E785F52F28F1EA9200598C0A /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E785F52E28F1EA9200598C0A /* TestViewController.swift */; };
+		E7A983DB28987BF700A77973 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A983DA28987BF700A77973 /* RealmManager.swift */; };
+		E7CC81D1288EB9A100EA0EA9 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CC81CF288EB9A100EA0EA9 /* NewsCell.swift */; };
+		E7CC81D2288EB9A100EA0EA9 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7CC81D0288EB9A100EA0EA9 /* NewsCell.xib */; };
+		E7CC81D4288EC05600EA0EA9 /* Dictionary+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CC81D3288EC05600EA0EA9 /* Dictionary+Ext.swift */; };
+		E7CC81D6288ED25F00EA0EA9 /* DitelisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CC81D5288ED25F00EA0EA9 /* DitelisController.swift */; };
+		E7CC81DC2893DAAE00EA0EA9 /* NewsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7CC81DA2893DAAE00EA0EA9 /* NewsModel.xcdatamodeld */; };
+		E7E6365A289937E6000357D7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7E63659289937E6000357D7 /* GoogleService-Info.plist */; };
+		E7E6365D2899399B000357D7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = E7E6365C2899399B000357D7 /* FirebaseAnalytics */; };
+		E7E6365F2899399B000357D7 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = E7E6365E2899399B000357D7 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		E7E6366328994A85000357D7 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = E7E6366228994A85000357D7 /* FirebaseMessaging */; };
 		E7FEA3DD288C42AF00FA62C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FEA3DC288C42AF00FA62C2 /* AppDelegate.swift */; };
 		E7FEA3DF288C42AF00FA62C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FEA3DE288C42AF00FA62C2 /* SceneDelegate.swift */; };
 		E7FEA3E1288C42AF00FA62C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FEA3E0288C42AF00FA62C2 /* ViewController.swift */; };
@@ -16,6 +30,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		672F2152D13F724A2AB0BE66 /* Pods-RxSwiftTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftTest.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftTest/Pods-RxSwiftTest.debug.xcconfig"; sourceTree = "<group>"; };
+		A2FCE2238458A3470CBC3DB7 /* Pods_RxSwiftTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B546067DECD1F916456F58DA /* Pods-RxSwiftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftTest.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftTest/Pods-RxSwiftTest.release.xcconfig"; sourceTree = "<group>"; };
+		E744F5F2288E942500164F85 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		E744F5F4288E972000164F85 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		E785F52E28F1EA9200598C0A /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		E7A983DA28987BF700A77973 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		E7CC81CF288EB9A100EA0EA9 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		E7CC81D0288EB9A100EA0EA9 /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		E7CC81D3288EC05600EA0EA9 /* Dictionary+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Ext.swift"; sourceTree = "<group>"; };
+		E7CC81D5288ED25F00EA0EA9 /* DitelisController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DitelisController.swift; path = /Users/vitaliitsiomenko/Desktop/RxSwiftTest/RxSwiftTest/DitelisController.swift; sourceTree = "<absolute>"; };
+		E7CC81DB2893DAAE00EA0EA9 /* NewsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewsModel.xcdatamodel; sourceTree = "<group>"; };
+		E7E63659289937E6000357D7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E7E6366028993BAD000357D7 /* RxSwiftTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RxSwiftTest.entitlements; sourceTree = "<group>"; };
 		E7FEA3D9288C42AF00FA62C2 /* RxSwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7FEA3DC288C42AF00FA62C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7FEA3DE288C42AF00FA62C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +59,104 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E6366328994A85000357D7 /* FirebaseMessaging in Frameworks */,
+				E7E6365D2899399B000357D7 /* FirebaseAnalytics in Frameworks */,
+				E7E6365F2899399B000357D7 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				82B482D5172DB7268D8BB33D /* Pods_RxSwiftTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B000CED9BFB55DEDFFD9D00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2FCE2238458A3470CBC3DB7 /* Pods_RxSwiftTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F17CD1A14E0050F5B534175 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				672F2152D13F724A2AB0BE66 /* Pods-RxSwiftTest.debug.xcconfig */,
+				B546067DECD1F916456F58DA /* Pods-RxSwiftTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E7A983D32898799F00A77973 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E7A983DA28987BF700A77973 /* RealmManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E7A983D4289879B000A77973 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E7CC81D5288ED25F00EA0EA9 /* DitelisController.swift */,
+				E7FEA3E0288C42AF00FA62C2 /* ViewController.swift */,
+				E785F52E28F1EA9200598C0A /* TestViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E7A983D5289879E600A77973 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				E7FEA3DC288C42AF00FA62C2 /* AppDelegate.swift */,
+				E7FEA3DE288C42AF00FA62C2 /* SceneDelegate.swift */,
+				E7FEA3E2288C42AF00FA62C2 /* Main.storyboard */,
+				E7FEA3E5288C42B200FA62C2 /* Assets.xcassets */,
+				E7FEA3E7288C42B200FA62C2 /* LaunchScreen.storyboard */,
+				E7FEA3EA288C42B200FA62C2 /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		E7A983D628987A7F00A77973 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7A983D728987A8B00A77973 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E7A983D728987A8B00A77973 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E7CC81CF288EB9A100EA0EA9 /* NewsCell.swift */,
+				E7CC81D0288EB9A100EA0EA9 /* NewsCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E7A983D828987A9F00A77973 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				E744F5F2288E942500164F85 /* News.swift */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		E7A983D928987AC600A77973 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E7CC81D3288EC05600EA0EA9 /* Dictionary+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E7FEA3D0288C42AF00FA62C2 = {
 			isa = PBXGroup;
 			children = (
 				E7FEA3DB288C42AF00FA62C2 /* RxSwiftTest */,
 				E7FEA3DA288C42AF00FA62C2 /* Products */,
+				8F17CD1A14E0050F5B534175 /* Pods */,
+				2B000CED9BFB55DEDFFD9D00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +171,16 @@
 		E7FEA3DB288C42AF00FA62C2 /* RxSwiftTest */ = {
 			isa = PBXGroup;
 			children = (
-				E7FEA3DC288C42AF00FA62C2 /* AppDelegate.swift */,
-				E7FEA3DE288C42AF00FA62C2 /* SceneDelegate.swift */,
-				E7FEA3E0288C42AF00FA62C2 /* ViewController.swift */,
-				E7FEA3E2288C42AF00FA62C2 /* Main.storyboard */,
-				E7FEA3E5288C42B200FA62C2 /* Assets.xcassets */,
-				E7FEA3E7288C42B200FA62C2 /* LaunchScreen.storyboard */,
-				E7FEA3EA288C42B200FA62C2 /* Info.plist */,
+				E7E6366028993BAD000357D7 /* RxSwiftTest.entitlements */,
+				E7E63659289937E6000357D7 /* GoogleService-Info.plist */,
+				E7A983D928987AC600A77973 /* Extensions */,
+				E7A983D828987A9F00A77973 /* Targets */,
+				E7A983D628987A7F00A77973 /* Views */,
+				E7A983D5289879E600A77973 /* Others */,
+				E7A983D4289879B000A77973 /* Controllers */,
+				E7A983D32898799F00A77973 /* Managers */,
+				E7CC81DA2893DAAE00EA0EA9 /* NewsModel.xcdatamodeld */,
+				E744F5F4288E972000164F85 /* NewsModel.swift */,
 			);
 			path = RxSwiftTest;
 			sourceTree = "<group>";
@@ -74,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7FEA3ED288C42B200FA62C2 /* Build configuration list for PBXNativeTarget "RxSwiftTest" */;
 			buildPhases = (
+				A332ED7C460DAAAC6E34606F /* [CP] Check Pods Manifest.lock */,
 				E7FEA3D5288C42AF00FA62C2 /* Sources */,
 				E7FEA3D6288C42AF00FA62C2 /* Frameworks */,
 				E7FEA3D7288C42AF00FA62C2 /* Resources */,
@@ -83,6 +202,11 @@
 			dependencies = (
 			);
 			name = RxSwiftTest;
+			packageProductDependencies = (
+				E7E6365C2899399B000357D7 /* FirebaseAnalytics */,
+				E7E6365E2899399B000357D7 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				E7E6366228994A85000357D7 /* FirebaseMessaging */,
+			);
 			productName = RxSwiftTest;
 			productReference = E7FEA3D9288C42AF00FA62C2 /* RxSwiftTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +235,10 @@
 				Base,
 			);
 			mainGroup = E7FEA3D0288C42AF00FA62C2;
+			packageReferences = (
+				E7E6365B2899399B000357D7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				E7E6366128994A85000357D7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = E7FEA3DA288C42AF00FA62C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,19 +255,54 @@
 			files = (
 				E7FEA3E9288C42B200FA62C2 /* LaunchScreen.storyboard in Resources */,
 				E7FEA3E6288C42B200FA62C2 /* Assets.xcassets in Resources */,
+				E7CC81D2288EB9A100EA0EA9 /* NewsCell.xib in Resources */,
 				E7FEA3E4288C42AF00FA62C2 /* Main.storyboard in Resources */,
+				E7E6365A289937E6000357D7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A332ED7C460DAAAC6E34606F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E7FEA3D5288C42AF00FA62C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E744F5F5288E972000164F85 /* NewsModel.swift in Sources */,
+				E7CC81D4288EC05600EA0EA9 /* Dictionary+Ext.swift in Sources */,
+				E785F52F28F1EA9200598C0A /* TestViewController.swift in Sources */,
+				E7CC81D6288ED25F00EA0EA9 /* DitelisController.swift in Sources */,
+				E744F5F3288E942500164F85 /* News.swift in Sources */,
+				E7CC81DC2893DAAE00EA0EA9 /* NewsModel.xcdatamodeld in Sources */,
 				E7FEA3E1288C42AF00FA62C2 /* ViewController.swift in Sources */,
 				E7FEA3DD288C42AF00FA62C2 /* AppDelegate.swift in Sources */,
+				E7A983DB28987BF700A77973 /* RealmManager.swift in Sources */,
+				E7CC81D1288EB9A100EA0EA9 /* NewsCell.swift in Sources */,
 				E7FEA3DF288C42AF00FA62C2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,14 +445,17 @@
 		};
 		E7FEA3EE288C42B200FA62C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 672F2152D13F724A2AB0BE66 /* Pods-RxSwiftTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RxSwiftTest/RxSwiftTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X7XW2M5S26;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RxSwiftTest/Info.plist;
+				INFOPLIST_FILE = RxSwiftTest/Others/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BestApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -300,7 +466,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = flugsUI.RxSwiftTest;
+				PRODUCT_BUNDLE_IDENTIFIER = the.best.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,14 +476,17 @@
 		};
 		E7FEA3EF288C42B200FA62C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B546067DECD1F916456F58DA /* Pods-RxSwiftTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RxSwiftTest/RxSwiftTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X7XW2M5S26;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RxSwiftTest/Info.plist;
+				INFOPLIST_FILE = RxSwiftTest/Others/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BestApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,7 +497,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = flugsUI.RxSwiftTest;
+				PRODUCT_BUNDLE_IDENTIFIER = the.best.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -358,6 +527,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E7E6365B2899399B000357D7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		E7E6366128994A85000357D7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E7E6365C2899399B000357D7 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7E6365B2899399B000357D7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		E7E6365E2899399B000357D7 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7E6365B2899399B000357D7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		E7E6366228994A85000357D7 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7E6365B2899399B000357D7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		E7CC81DA2893DAAE00EA0EA9 /* NewsModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E7CC81DB2893DAAE00EA0EA9 /* NewsModel.xcdatamodel */,
+			);
+			currentVersion = E7CC81DB2893DAAE00EA0EA9 /* NewsModel.xcdatamodel */;
+			path = NewsModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E7FEA3D1288C42AF00FA62C2 /* Project object */;
 }
